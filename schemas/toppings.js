@@ -30,7 +30,7 @@ export default defineType({
     prepare(selection) {
       const {name, vegetarian} = selection
       return {
-        title: `${name} ${vegetarian ? "🌱" : ""}`,
+        title: `${name} ${vegetarian ? '🌱' : ''}`,
       }
     },
   },
